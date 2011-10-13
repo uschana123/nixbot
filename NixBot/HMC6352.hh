@@ -26,7 +26,7 @@ private:
   int		_status;
   int		_slaveaddr;
   unsigned char	_pwrpin;
-  bool		_rotation;		// stores the true if clock rotation increase degrees (0 > 360) or false if decrease (360 > 0) 
+  bool		_rotation;		// stores true if clock rotation increase degrees (0 > 360) or false if decrease (360 > 0) 
 };
 
 #endif // !__HMC6352_HH__
